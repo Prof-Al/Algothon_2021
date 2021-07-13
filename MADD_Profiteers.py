@@ -1,5 +1,7 @@
 def getMyPosition(prc_history):
     lookback = 10
+    dlrPosLimit = 10000
+    
     final_alloc = np.zeros(len(prc_history))
 
     for i in range(50, len(prc_history)):
