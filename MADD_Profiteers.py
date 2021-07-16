@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def getMyPosition(prc_history):
     lookback = 10
     dlrPosLimit = 10000
